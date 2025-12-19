@@ -1,11 +1,12 @@
 package examen;
 
 public class vehiculo {
-
+ main
 	String matricula;
 	String marca;
 	String modelo;
 	double preciohora;
+  
 	public String getMatricula() {
 		return matricula;
 	}
@@ -31,5 +32,5 @@ public class vehiculo {
 		this.preciohora = preciohora;
 	}
 	
-	
-}
+
+
