@@ -1,12 +1,31 @@
 package examen;
 
-public class vehiculo {
- main
+public class Vehiculo {
+ 
 	String matricula;
 	String marca;
 	String modelo;
 	double preciohora;
+	
+	/**
+	 * 
+	 * @param matricula
+	 * @param marca
+	 * @param modelo
+	 * @param preciohora
+	 */
   
+	public Vehiculo(String matricula, String marca, String modelo, double preciohora) {
+		super();
+		this.matricula = matricula;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.preciohora = preciohora;
+	}
+	/**
+	 * 
+	 * @return getter y seters
+	 */
 	public String getMatricula() {
 		return matricula;
 	}
@@ -31,6 +50,15 @@ public class vehiculo {
 	public void setPreciohora(double preciohora) {
 		this.preciohora = preciohora;
 	}
+	@Override
+	public String toString() {
+		return "Vehiculo [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", preciohora="
+				+ preciohora + "]";
+	}
 	
-
+	
+	
+	
+	
+}
 
